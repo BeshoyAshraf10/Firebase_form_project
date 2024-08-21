@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "189338081427",
+    "project_id": "registration-form-depi",
+    "storage_bucket": "registration-form-depi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189338081427:android:6ca05ee8484c2f55551566",
+        "android_client_info": {
+          "package_name": "com.example.firebase_project_depi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHNM-Dfo8NswOzQXaZQkFx9vnVUl8N4ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

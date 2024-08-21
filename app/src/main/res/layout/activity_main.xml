@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Email"
+        android:textColor="#DBDAF1"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="textEmailAddress"
+        style="@style/et_main" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Password"
+        android:textColor="#DBDAF1"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/et_main"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_marginTop="4sp"
+        android:id="@+id/forgot_pass_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        style="@style/tv_main"
+        android:text="Forgot your password?" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/resend_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="14sp"-->
+<!--        style="@style/tv_main"-->
+<!--        android:layout_marginTop="4dp"-->
+<!--        android:visibility="invisible"-->
+<!--        android:text="Resend verification email"-->
+<!--        android:textColor="#4CAF50"-->
+<!--        tools:visibility="visible"/>-->
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        style="@style/btn_style"/>
+
+    <TextView
+        android:id="@+id/not_user_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Not a user?"
+        android:textColor="#2196F3" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</LinearLayout>

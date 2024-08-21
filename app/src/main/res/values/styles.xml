@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="tv_main">
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#DBDAF1</item>
+    </style>
+
+    <style name="et_main">
+        <item name="android:backgroundTint">@color/secColor</item>
+        <item name="android:textColor">@color/secColor</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="btn_style">
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">#1e2940</item>
+    </style>
+</resources>
