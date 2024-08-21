@@ -23,7 +23,14 @@ class SignUpActivity : AppCompatActivity() {
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            val scale = resources.displayMetrics.density
+            val desiredPx = (16* scale+0.5f).toInt()
+            v.setPadding(
+                systemBars.left + desiredPx,
+                systemBars.top + desiredPx,
+                systemBars.right + desiredPx,
+                systemBars.bottom + desiredPx
+            )
             insets
         }
         // Initialize Firebase Auth
