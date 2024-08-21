@@ -46,17 +46,6 @@
         style="@style/tv_main"
         android:text="Forgot your password?" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/resend_tv"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textSize="14sp"-->
-<!--        style="@style/tv_main"-->
-<!--        android:layout_marginTop="4dp"-->
-<!--        android:visibility="invisible"-->
-<!--        android:text="Resend verification email"-->
-<!--        android:textColor="#4CAF50"-->
-<!--        tools:visibility="visible"/>-->
     <Button
         android:layout_marginTop="16dp"
         android:id="@+id/login_btn"
@@ -71,6 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="4dp"
         android:text="Not a user?"
         android:textColor="#2196F3" />
 
