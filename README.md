@@ -92,12 +92,9 @@ For any inquiries or feedback, please reach out to [besho.rex@gmail.com](mailto:
 
 ### 🌟 Preview
 
-Sign-in screenshot
-![Form](https://github.com/BeshoyAshraf10/Firebase_form_project/blob/main/screenshots/sign-out.png)
-Sign-out screenshot
-![Form](https://github.com/BeshoyAshraf10/Firebase_form_project/blob/main/screenshots/sign_in.png)
-Form screenshot
-![Form](https://github.com/BeshoyAshraf10/Firebase_form_project/blob/main/screenshots/form.png)
+| Sign-in Screenshot | Sign-out Screenshot | Form Screenshot |
+|:------------------:|:-------------------:|:---------------:|
+| ![Sign-in](https://github.com/BeshoyAshraf10/Firebase_form_project/blob/main/screenshots/sign_in.png) | ![Sign-out](https://github.com/BeshoyAshraf10/Firebase_form_project/blob/main/screenshots/sign-out.png) | ![Form](https://github.com/BeshoyAshraf10/Firebase_form_project/blob/main/screenshots/form.png) |
 
 ---
 
